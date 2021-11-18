@@ -34,12 +34,9 @@ public class NumbersCheck {
 
     //Метод к заданию 3
     public static String hunky (int number){
-        int result1= number%2;
-        int result2= number%5;
-        int result3= number%3;
-        int result4= number%6;
-        int result5= number%9;
-
+        if(number/2==0&&number/5==0&&number/3==0&&number/6==0&&number/9==0){
+            System.out.println("Число делиться без остатка на 2, 5, 3, 6, 9 ");
+        }
         return "";
     }
 }
